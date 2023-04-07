@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat and Voice Bot Interface</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+		}
+		.chat-window {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin: 0 auto;
+			padding: 10px;
+			width: 500px;
+		}
+		.chat-window h1 {
+			font-size: 18px;
+			margin: 0 0 10px;
+		}
+		.message-box {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 10px;
+			padding: 10px;
+		}
+		.message-box input[type="text"] {
+			border: none;
+			flex-grow: 1;
+			font-size: 14px;
+			margin-right: 10px;
+		}
+		.message-box i {
+			color: #008CBA;
+			cursor: pointer;
+			font-size: 18px;
+		}
+		.bot-message {
+			align-self: flex-start;
+			background-color: #008CBA;
+			border-radius: 5px;
+			color: #fff;
+			margin-bottom: 10px;
+			padding: 10px;
+			text-align: left;
+			width: 80%;
+		}
+		.bot-message i {
+			margin-right: 10px;
+		}
+		.user-message {
+			align-self: flex-end;
+			background-color: #f2f2f2;
+			border-radius: 5px;
+			color: #000;
+			margin-bottom: 10px;
+			padding: 10px;
+			text-align: right;
+			width: 80%;
+		}
+		.user-message i {
+			margin-left: 10px;
+		}
+		.voice-button {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 16px;
+			margin-bottom: 10px;
+			padding: 10px;
+			width: 100%;
+		}
+		.voice-button i {
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="chat-window">
+		<h1>Chat and Voice Bot Interface</h1>
+		<div class="message-box">
+			<input type="text" placeholder="Type your message here" />
+			<i class="far fa-paper-plane"></i>
+		</div>
+		<div class="bot-message"><i class="fas fa-robot"></i>Hi there! How can I assist you today?</div>
+		<div class="user-message"><i class="fas fa-user"></i>I need help with my account balance.</div>
+		<div class="bot-message"><i class="fas fa-robot"></i>Sure, I can help with that. What is your account number?</div>
+		<div class="user-message"><i class="fas fa-user"></i>I can't receive my money or send anything.</div>
+    
