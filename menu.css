@@ -32,6 +32,13 @@
   display: flex;
   flex-direction: row;
 }
+.menu li {
+  transition: 0.2s ease-out;
+}
+
+.menu li:hover {
+  transform: translateX(5px);
+}
 
 input[type="text"] {
   flex: 1;
