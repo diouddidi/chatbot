@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat GPT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="chatbox">
+      <div class="chatlog"></div>
+      <div class="inputbox">
+        <input type="text" placeholder="Tapez votre message ici...">
+        <button>Envoyer</button>
+      </div>
+    </div>
+  </body>
+</html>
